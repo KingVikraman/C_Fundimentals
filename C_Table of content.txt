@@ -1,0 +1,95 @@
+1) Data type
+*************
+
+- char, 
+- int
+- float
+
+default - signed (-ve && + ve)
+- unsigned (0 - +ve) 
+
+Example:
+char *str
+unsigned char *str
+
+==========================================================================
+
+2) Control flow | Comparison:
+******************************
+
+== != >= <= || &&
+
+if, else if, else(default go to)
+
+
+Exmample:
+if (TRUE && (TRUE || FALSE))
+	- do A
+else
+	- do B
+
+=============================================================================
+	
+3) Function ++++++
+*************
+
+<return_type> function(type param1, type param...)
+{
+	- do something
+	return ();
+}
+
+
+bool ft_isdigit(char c)
+{
+	return(c >= '0 && c <= '9');
+}
+
+int main()
+{
+	if (ft_isdigit('Q'))
+}
+
+
+=============================================================================
+
+4) Struct <---- is a user-defined datatype +++++
+
+
+Example: struct contain student data - student's name, age, subjects[array] - English, Math, History.
+
+typedef char str;
+
+typedef struct s_data
+{
+	Student's name		str;
+	age 				int;
+	Subjects			array;
+
+	void function_1(char *)
+} t_data;
+
+int main()
+{
+	t_data myData;
+	myData.name = "Jason"
+}
+
+===========================================================================
+
+5) Pointers with function
+
+string[i++]
+
+*string++
+
+
+*string - 5
+
+function (char *ptr, int *num)
+
+int main{
+	char *name = "Jason";
+	int num = 10;
+	function(name, &num);                 
+}
